@@ -23,7 +23,7 @@ print(total_cost)
 average_speed = 60
 hours_available = 4
 total_distance = ??? # calculate here
-print(???)  # print the result
+print(??)# print the result
 
 # ---------------------------------------------------------------------
 # Exercise 2 - Pizza Slices
