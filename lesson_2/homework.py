@@ -72,7 +72,12 @@ print(temp_fahrenheit)
 # and print the area of the flowerbed.
 # To calculate the area of a circle, multiply π (~3.141) with the square of
 # the circle's radius.
+pi = 3.141
+r = 3.5
+area_of_flowerbed = round((pi * r**2), 2)
 
+
+print(area_of_flowerbed)
 
 # ---------------------------------------------------------------------
 # Exercise 6 - Convert Temperature
@@ -83,6 +88,8 @@ print(temp_fahrenheit)
 # temperature for display.
 # As an example, if the temperature is 24.8ºC, you need to print 24.
 
+given_temp_celsius = int(24.8)
+print(given_temp_celsius)
 
 # ---------------------------------------------------------------------
 # Exercise 7 - Baking Cookies
@@ -90,8 +97,14 @@ print(temp_fahrenheit)
 # want to distribute them evenly into 5 cookies. Calculate and
 # print the number of chocolate chips in each cookie and the
 # remaining chips.
+chocolate_chips = 17
+cookies = 5
+chips_in_each_cookie = int(chocolate_chips/cookies)
+remaining_chips = chocolate_chips % cookies
 
 
+print(f'There are {chips_in_each_cookie} chocolate chips in each cookie')
+print(f'There are {remaining_chips} remaining chocolate chips')
 # ---------------------------------------------------------------------
 # Exercise 8 - Fix the Code - Event total earnings
 # FOR THIS EXERCISE YOU WILL HAVE AN EXISTING CODE THAT IS
@@ -108,11 +121,11 @@ print(temp_fahrenheit)
 #
 # For the values provided we are expecting a total earning of 750000,
 # however the code is not working correctly. Can you fix it?
-1st_event_participants = 250
-2nd_event_participants = 500
-ticket_$ = 1000
+first_event_participants = 250
+second_event_participants = 500
+ticket_cost = 1000
 
-total_earnings = (1st_event_total + 2nd_event_total) * ticket_$
+total_earnings = (first_event_participants + second_event_participants) * ticket_cost
 print(total_earnings)
 
 
@@ -134,12 +147,12 @@ print(total_earnings)
 #
 # For these ages, we expect an age mean of 15.0, but your code
 # is returning 36.3. Fix the code to print the correct value.
-student_1_age = 15
-student_2_age = 17
-student_3_age = 13
-
-students_age_mean = student_1_age + student_2_age + student_3_age / 3
-print(students_mean_age)
+# student_1_age = 15
+# student_2_age = 17
+# student_3_age = 13
+#
+# students_age_mean = student_1_age + student_2_age + student_3_age / 3
+# print(students_mean_age)
 
 # ---------------------------------------------------------------------
 # Challenge (OPTIONAL!): Separating Digits of a Number
@@ -172,6 +185,6 @@ number = number // 10
 
 # Print the result for all four digits
 print(digit_1)
-print(digit_2)
-print(digit_3)
-print(digit_4)
+# print(digit_2)
+# print(digit_3)
+# print(digit_4)
