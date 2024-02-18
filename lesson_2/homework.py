@@ -22,18 +22,18 @@ print(total_cost)
 
 average_speed = 60
 hours_available = 4
-total_distance = ??? # calculate here
-print(??)# print the result
+total_distance = average_speed * hours_available # calculate here
+print(total_distance)# print the result
 
 # ---------------------------------------------------------------------
 # Exercise 2 - Pizza Slices
 # A pizza is cut into 8 equal slices. Calculate and print how many
 # slices each person will get if there are 4 people sharing the pizza.
 
-pizza_slices = ???
-people = ???
-slices_per_person = ???
-print(???)
+pizza_slices = 8
+people = 4
+slices_per_person = pizza_slices / people
+print(slices_per_person)
 
 # ---------------------------------------------------------------------
 # Exercise 3 - Shopping Discount
@@ -46,6 +46,11 @@ print(???)
 # The formula to count the discounted price:
 # multiply the original price by the discount percentage and divide by 100.
 
+original_price = 80
+discount_percentage = 20
+final_price = original_price * (discount_percentage/100)
+print(final_price)
+
 
 # ---------------------------------------------------------------------
 # Exercise 4 - Temperature Conversion
@@ -55,6 +60,10 @@ print(???)
 # To convert Celsis to Fahrenheit you need to multiply
 # the temperature in Celsius by 9/5 and add 32 to the result
 
+temp_celsius = 25
+temp_fahrenheit = (temp_celsius * 9/5) +32
+
+print(temp_fahrenheit)
 
 # ---------------------------------------------------------------------
 # Exercise 5 - Gardening
