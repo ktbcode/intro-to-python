@@ -147,12 +147,12 @@ print(total_earnings)
 #
 # For these ages, we expect an age mean of 15.0, but your code
 # is returning 36.3. Fix the code to print the correct value.
-# student_1_age = 15
-# student_2_age = 17
-# student_3_age = 13
-#
-# students_age_mean = student_1_age + student_2_age + student_3_age / 3
-# print(students_mean_age)
+student_1_age = 15
+student_2_age = 17
+student_3_age = 13
+
+students_age_mean = round((student_1_age + student_2_age + student_3_age) / 3, 1)
+print(students_age_mean)
 
 # ---------------------------------------------------------------------
 # Challenge (OPTIONAL!): Separating Digits of a Number
@@ -182,9 +182,17 @@ number = number // 10
 # If you repeat this operation with the second, the third and
 # the fourth digits, you will be able to get all the digits.
 # Your code here
+digit_2 = number % 10
+number = number // 10
+
+digit_3 = number % 10
+number = number // 10
+
+digit_4 = number % 10
+number = number // 10
 
 # Print the result for all four digits
 print(digit_1)
-# print(digit_2)
-# print(digit_3)
-# print(digit_4)
+print(digit_2)
+print(digit_3)
+print(digit_4)
